@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name F1C100S)(type Legacy)(uri F:/Git/F1C100S/PCB/F1C100S_devboard/LIBs/F1C100S/F1C100S.lib)(options "")(descr ""))
+  (lib (name IS43TR16640C-125JBLI)(type Legacy)(uri F:/Git/F1C100S/PCB/F1C100S_devboard/LIBs/IS43TR16640C-125JBLI/IS43TR16640C-125JBLI.lib)(options "")(descr ""))
+  (lib (name S25FL256SAGNFI001)(type Legacy)(uri F:/Git/F1C100S/PCB/F1C100S_devboard/LIBs/S25FL256SAGNFI001/S25FL256SAGNFI001.lib)(options "")(descr ""))
+  (lib (name 10118194-0011LF)(type Legacy)(uri F:/Git/F1C100S/PCB/F1C100S_devboard/LIBs/10118194-0011LF/10118194-0011LF.lib)(options "")(descr ""))
+  (lib (name MCP1703T-2802E_CB)(type Legacy)(uri F:/Git/F1C100S/PCB/F1C100S_devboard/LIBs/MCP1703T-2802E_CB/KiCad/MCP1703T-2802E_CB.lib)(options "")(descr ""))
+)

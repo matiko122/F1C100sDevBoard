@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP1703T-2802E_CB
+D LDO, 250mA max, Vin 16V max, Vout =2.8V
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22049f.pdf
+$ENDCMP
+#
+#End Doc Library

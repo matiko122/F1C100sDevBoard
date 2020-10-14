@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IS43TR16640C-125JBLI
+D SDRAM DDR3 Memory IC 1G-bit 64Mx16 1600MT/s 96-Pin BGA - Trays
+K
+F https://www.mouser.com/datasheet/2/198/43-46TR16640C-81280CL-1663660.pdf
+$ENDCMP
+#
+#End Doc Library

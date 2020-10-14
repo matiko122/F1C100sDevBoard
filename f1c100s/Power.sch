@@ -1,0 +1,634 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCP1703T-2802E_CB:MCP1703T-2802E_CB IC2
+U 1 1 5F824A59
+P 4800 2200
+F 0 "IC2" H 5350 2465 50  0000 C CNN
+F 1 "MCP1703T-2802E_CB" H 5350 2374 50  0000 C CNN
+F 2 "MCP1703T-2802E_CB:SOT95P255X145-3N" H 5750 2300 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22049f.pdf" H 5750 2200 50  0001 L CNN
+F 4 "LDO, 250mA max, Vin 16V max, Vout =2.8V" H 5750 2100 50  0001 L CNN "Description"
+F 5 "1.45" H 5750 2000 50  0001 L CNN "Height"
+F 6 "Microchip" H 5750 1900 50  0001 L CNN "Manufacturer_Name"
+F 7 "MCP1703T-2802E/CB" H 5750 1800 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "MCP1703T-2802E/CB" H 5750 1700 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/mcp1703t-2802ecb/microchip-technology" H 5750 1600 50  0001 L CNN "Arrow Price/Stock"
+F 10 "579-MCP1703T2802E/CB" H 5750 1500 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1703T-2802E-CB?qs=icxrp76fIjD9cjsMSw5c%252BQ%3D%3D" H 5750 1400 50  0001 L CNN "Mouser Price/Stock"
+	1    4800 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 2200 4900 2200
+Wire Wire Line
+	3700 2200 3300 2200
+Wire Wire Line
+	3300 2200 3300 1900
+$Comp
+L power:+5V #PWR0133
+U 1 1 5F82C2BC
+P 3300 1900
+F 0 "#PWR0133" H 3300 1750 50  0001 C CNN
+F 1 "+5V" H 3315 2073 50  0000 C CNN
+F 2 "" H 3300 1900 50  0001 C CNN
+F 3 "" H 3300 1900 50  0001 C CNN
+	1    3300 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2100 4900 2100
+Wire Wire Line
+	4900 2100 4900 1950
+Wire Wire Line
+	4900 2200 4900 2350
+$Comp
+L power:GND #PWR0134
+U 1 1 5F82C8C0
+P 4900 2400
+F 0 "#PWR0134" H 4900 2150 50  0001 C CNN
+F 1 "GND" H 4905 2227 50  0000 C CNN
+F 2 "" H 4900 2400 50  0001 C CNN
+F 3 "" H 4900 2400 50  0001 C CNN
+	1    4900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+2V5 #PWR?
+U 1 1 5F82F027
+P 4900 3150
+AR Path="/5F7C986A/5F82F027" Ref="#PWR?"  Part="1" 
+AR Path="/5F7C9D03/5F82F027" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 4900 3000 50  0001 C CNN
+F 1 "+2V5" H 4915 3323 50  0000 C CNN
+F 2 "" H 4900 3150 50  0001 C CNN
+F 3 "" H 4900 3150 50  0001 C CNN
+	1    4900 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V2 #PWR?
+U 1 1 5F82F02D
+P 4900 1900
+AR Path="/5F7C986A/5F82F02D" Ref="#PWR?"  Part="1" 
+AR Path="/5F7C9D03/5F82F02D" Ref="#PWR0136"  Part="1" 
+F 0 "#PWR0136" H 4900 1750 50  0001 C CNN
+F 1 "+1V2" H 4915 2073 50  0000 C CNN
+F 2 "" H 4900 1900 50  0001 C CNN
+F 3 "" H 4900 1900 50  0001 C CNN
+	1    4900 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP1703T-2802E_CB:MCP1703T-2802E_CB IC3
+U 1 1 5F834394
+P 4800 3450
+F 0 "IC3" H 5350 3715 50  0000 C CNN
+F 1 "MCP1703T-2802E_CB" H 5350 3624 50  0000 C CNN
+F 2 "MCP1703T-2802E_CB:SOT95P255X145-3N" H 5750 3550 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22049f.pdf" H 5750 3450 50  0001 L CNN
+F 4 "LDO, 250mA max, Vin 16V max, Vout =2.8V" H 5750 3350 50  0001 L CNN "Description"
+F 5 "1.45" H 5750 3250 50  0001 L CNN "Height"
+F 6 "Microchip" H 5750 3150 50  0001 L CNN "Manufacturer_Name"
+F 7 "MCP1703T-2802E/CB" H 5750 3050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "MCP1703T-2802E/CB" H 5750 2950 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/mcp1703t-2802ecb/microchip-technology" H 5750 2850 50  0001 L CNN "Arrow Price/Stock"
+F 10 "579-MCP1703T2802E/CB" H 5750 2750 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1703T-2802E-CB?qs=icxrp76fIjD9cjsMSw5c%252BQ%3D%3D" H 5750 2650 50  0001 L CNN "Mouser Price/Stock"
+	1    4800 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 3450 4900 3450
+Wire Wire Line
+	3700 3450 3300 3450
+Wire Wire Line
+	3300 3450 3300 3150
+$Comp
+L power:+5V #PWR0137
+U 1 1 5F83439D
+P 3300 3150
+F 0 "#PWR0137" H 3300 3000 50  0001 C CNN
+F 1 "+5V" H 3315 3323 50  0000 C CNN
+F 2 "" H 3300 3150 50  0001 C CNN
+F 3 "" H 3300 3150 50  0001 C CNN
+	1    3300 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3350 4900 3350
+Wire Wire Line
+	4900 3450 4900 3600
+$Comp
+L power:GND #PWR0138
+U 1 1 5F8343A6
+P 4900 3650
+F 0 "#PWR0138" H 4900 3400 50  0001 C CNN
+F 1 "GND" H 4905 3477 50  0000 C CNN
+F 2 "" H 4900 3650 50  0001 C CNN
+F 3 "" H 4900 3650 50  0001 C CNN
+	1    4900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP1703T-2802E_CB:MCP1703T-2802E_CB IC4
+U 1 1 5F836C32
+P 4800 4700
+F 0 "IC4" H 5350 4965 50  0000 C CNN
+F 1 "MCP1703T-2802E_CB" H 5350 4874 50  0000 C CNN
+F 2 "MCP1703T-2802E_CB:SOT95P255X145-3N" H 5750 4800 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22049f.pdf" H 5750 4700 50  0001 L CNN
+F 4 "LDO, 250mA max, Vin 16V max, Vout =2.8V" H 5750 4600 50  0001 L CNN "Description"
+F 5 "1.45" H 5750 4500 50  0001 L CNN "Height"
+F 6 "Microchip" H 5750 4400 50  0001 L CNN "Manufacturer_Name"
+F 7 "MCP1703T-2802E/CB" H 5750 4300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "MCP1703T-2802E/CB" H 5750 4200 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/mcp1703t-2802ecb/microchip-technology" H 5750 4100 50  0001 L CNN "Arrow Price/Stock"
+F 10 "579-MCP1703T2802E/CB" H 5750 4000 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1703T-2802E-CB?qs=icxrp76fIjD9cjsMSw5c%252BQ%3D%3D" H 5750 3900 50  0001 L CNN "Mouser Price/Stock"
+	1    4800 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 4700 4900 4700
+Wire Wire Line
+	3700 4700 3300 4700
+Wire Wire Line
+	3300 4700 3300 4400
+$Comp
+L power:+5V #PWR0139
+U 1 1 5F836C3B
+P 3300 4400
+F 0 "#PWR0139" H 3300 4250 50  0001 C CNN
+F 1 "+5V" H 3315 4573 50  0000 C CNN
+F 2 "" H 3300 4400 50  0001 C CNN
+F 3 "" H 3300 4400 50  0001 C CNN
+	1    3300 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4600 4900 4600
+Wire Wire Line
+	4900 4600 4900 4450
+Wire Wire Line
+	4900 4700 4900 4850
+$Comp
+L power:GND #PWR0140
+U 1 1 5F836C44
+P 4900 4900
+F 0 "#PWR0140" H 4900 4650 50  0001 C CNN
+F 1 "GND" H 4905 4727 50  0000 C CNN
+F 2 "" H 4900 4900 50  0001 C CNN
+F 3 "" H 4900 4900 50  0001 C CNN
+	1    4900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP1703T-2802E_CB:MCP1703T-2802E_CB IC5
+U 1 1 5F838B02
+P 4800 5900
+F 0 "IC5" H 5350 6165 50  0000 C CNN
+F 1 "MCP1703T-2802E_CB" H 5350 6074 50  0000 C CNN
+F 2 "MCP1703T-2802E_CB:SOT95P255X145-3N" H 5750 6000 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22049f.pdf" H 5750 5900 50  0001 L CNN
+F 4 "LDO, 250mA max, Vin 16V max, Vout =2.8V" H 5750 5800 50  0001 L CNN "Description"
+F 5 "1.45" H 5750 5700 50  0001 L CNN "Height"
+F 6 "Microchip" H 5750 5600 50  0001 L CNN "Manufacturer_Name"
+F 7 "MCP1703T-2802E/CB" H 5750 5500 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "MCP1703T-2802E/CB" H 5750 5400 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/mcp1703t-2802ecb/microchip-technology" H 5750 5300 50  0001 L CNN "Arrow Price/Stock"
+F 10 "579-MCP1703T2802E/CB" H 5750 5200 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1703T-2802E-CB?qs=icxrp76fIjD9cjsMSw5c%252BQ%3D%3D" H 5750 5100 50  0001 L CNN "Mouser Price/Stock"
+	1    4800 5900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 5900 4900 5900
+Wire Wire Line
+	3700 5900 3300 5900
+Wire Wire Line
+	3300 5900 3300 5600
+$Comp
+L power:+5V #PWR0141
+U 1 1 5F838B0B
+P 3300 5600
+F 0 "#PWR0141" H 3300 5450 50  0001 C CNN
+F 1 "+5V" H 3315 5773 50  0000 C CNN
+F 2 "" H 3300 5600 50  0001 C CNN
+F 3 "" H 3300 5600 50  0001 C CNN
+	1    3300 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 5800 4900 5800
+Wire Wire Line
+	4900 5800 4900 5650
+Wire Wire Line
+	4900 5900 4900 6050
+$Comp
+L power:GND #PWR0142
+U 1 1 5F838B14
+P 4900 6100
+F 0 "#PWR0142" H 4900 5850 50  0001 C CNN
+F 1 "GND" H 4905 5927 50  0000 C CNN
+F 2 "" H 4900 6100 50  0001 C CNN
+F 3 "" H 4900 6100 50  0001 C CNN
+	1    4900 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F83AA5B
+P 4900 5600
+AR Path="/5F7C986A/5F83AA5B" Ref="#PWR?"  Part="1" 
+AR Path="/5F7C9D03/5F83AA5B" Ref="#PWR0143"  Part="1" 
+F 0 "#PWR0143" H 4900 5450 50  0001 C CNN
+F 1 "+3V3" H 4915 5773 50  0000 C CNN
+F 2 "" H 4900 5600 50  0001 C CNN
+F 3 "" H 4900 5600 50  0001 C CNN
+	1    4900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+2V8 #PWR0144
+U 1 1 5F849705
+P 4900 4400
+F 0 "#PWR0144" H 4900 4250 50  0001 C CNN
+F 1 "+2V8" H 4915 4573 50  0000 C CNN
+F 2 "" H 4900 4400 50  0001 C CNN
+F 3 "" H 4900 4400 50  0001 C CNN
+	1    4900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C28
+U 1 1 5F84CB4E
+P 2400 4050
+F 0 "C28" H 2515 4096 50  0000 L CNN
+F 1 "1u" H 2515 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2438 3900 50  0001 C CNN
+F 3 "~" H 2400 4050 50  0001 C CNN
+	1    2400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C27
+U 1 1 5F84D138
+P 2050 4050
+F 0 "C27" H 2165 4096 50  0000 L CNN
+F 1 "1u" H 2165 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2088 3900 50  0001 C CNN
+F 3 "~" H 2050 4050 50  0001 C CNN
+	1    2050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C26
+U 1 1 5F84D43B
+P 1700 4050
+F 0 "C26" H 1815 4096 50  0000 L CNN
+F 1 "1u" H 1815 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1738 3900 50  0001 C CNN
+F 3 "~" H 1700 4050 50  0001 C CNN
+	1    1700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C25
+U 1 1 5F84D7AC
+P 1350 4050
+F 0 "C25" H 1465 4096 50  0000 L CNN
+F 1 "1u" H 1465 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1388 3900 50  0001 C CNN
+F 3 "~" H 1350 4050 50  0001 C CNN
+	1    1350 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 3900 1350 3700
+Wire Wire Line
+	1350 3700 1700 3700
+Wire Wire Line
+	2400 3700 2400 3900
+Wire Wire Line
+	2050 3900 2050 3700
+Connection ~ 2050 3700
+Wire Wire Line
+	2050 3700 2400 3700
+Wire Wire Line
+	1700 3900 1700 3700
+Connection ~ 1700 3700
+Wire Wire Line
+	1700 3700 1900 3700
+Wire Wire Line
+	1350 4200 1350 4400
+Wire Wire Line
+	1350 4400 1700 4400
+Wire Wire Line
+	2400 4400 2400 4200
+Wire Wire Line
+	2050 4200 2050 4400
+Connection ~ 2050 4400
+Wire Wire Line
+	2050 4400 2400 4400
+Wire Wire Line
+	1700 4200 1700 4400
+Connection ~ 1700 4400
+Wire Wire Line
+	1700 4400 1900 4400
+Wire Wire Line
+	1900 4400 1900 4650
+Connection ~ 1900 4400
+Wire Wire Line
+	1900 4400 2050 4400
+Wire Wire Line
+	1900 3700 1900 3500
+Connection ~ 1900 3700
+Wire Wire Line
+	1900 3700 2050 3700
+$Comp
+L power:+5V #PWR0145
+U 1 1 5F85155F
+P 1900 3500
+F 0 "#PWR0145" H 1900 3350 50  0001 C CNN
+F 1 "+5V" H 1915 3673 50  0000 C CNN
+F 2 "" H 1900 3500 50  0001 C CNN
+F 3 "" H 1900 3500 50  0001 C CNN
+	1    1900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0146
+U 1 1 5F851E95
+P 1900 4650
+F 0 "#PWR0146" H 1900 4400 50  0001 C CNN
+F 1 "GND" H 1905 4477 50  0000 C CNN
+F 2 "" H 1900 4650 50  0001 C CNN
+F 3 "" H 1900 4650 50  0001 C CNN
+	1    1900 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C29
+U 1 1 5F85293A
+P 5100 2150
+F 0 "C29" H 5215 2196 50  0000 L CNN
+F 1 "1u" H 5215 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5138 2000 50  0001 C CNN
+F 3 "~" H 5100 2150 50  0001 C CNN
+	1    5100 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2000 5100 1950
+Wire Wire Line
+	5100 1950 4900 1950
+Connection ~ 4900 1950
+Wire Wire Line
+	4900 1950 4900 1900
+Wire Wire Line
+	4900 2350 5100 2350
+Wire Wire Line
+	5100 2350 5100 2300
+Connection ~ 4900 2350
+Wire Wire Line
+	4900 2350 4900 2400
+$Comp
+L Device:C C30
+U 1 1 5F855051
+P 5100 3400
+F 0 "C30" H 5215 3446 50  0000 L CNN
+F 1 "1u" H 5215 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5138 3250 50  0001 C CNN
+F 3 "~" H 5100 3400 50  0001 C CNN
+	1    5100 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3600 5100 3600
+Wire Wire Line
+	5100 3600 5100 3550
+$Comp
+L Device:C C31
+U 1 1 5F855F4D
+P 5100 4650
+F 0 "C31" H 5215 4696 50  0000 L CNN
+F 1 "1u" H 5215 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5138 4500 50  0001 C CNN
+F 3 "~" H 5100 4650 50  0001 C CNN
+	1    5100 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4500 5100 4450
+Wire Wire Line
+	5100 4450 4900 4450
+Wire Wire Line
+	4900 4850 5100 4850
+Wire Wire Line
+	5100 4850 5100 4800
+$Comp
+L Device:C C32
+U 1 1 5F856FFC
+P 5100 5850
+F 0 "C32" H 5215 5896 50  0000 L CNN
+F 1 "1u" H 5215 5805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5138 5700 50  0001 C CNN
+F 3 "~" H 5100 5850 50  0001 C CNN
+	1    5100 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 5700 5100 5650
+Wire Wire Line
+	5100 5650 4900 5650
+Wire Wire Line
+	4900 6050 5100 6050
+Wire Wire Line
+	5100 6050 5100 6000
+Wire Wire Line
+	5100 3250 5100 3200
+Wire Wire Line
+	5100 3200 4900 3200
+Wire Wire Line
+	4900 3350 4900 3200
+Connection ~ 4900 3200
+Wire Wire Line
+	4900 3200 4900 3150
+Connection ~ 4900 3600
+Wire Wire Line
+	4900 3600 4900 3650
+Connection ~ 4900 4450
+Wire Wire Line
+	4900 4450 4900 4400
+Connection ~ 4900 4850
+Wire Wire Line
+	4900 4850 4900 4900
+Connection ~ 4900 5650
+Wire Wire Line
+	4900 5650 4900 5600
+Connection ~ 4900 6050
+Wire Wire Line
+	4900 6050 4900 6100
+$Comp
+L Connector:USB_B_Micro J1
+U 1 1 5F8F7C5B
+P 8300 3750
+F 0 "J1" H 8357 4217 50  0000 C CNN
+F 1 "USB_B_Micro" H 8357 4126 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal" H 8450 3700 50  0001 C CNN
+F 3 "~" H 8450 3700 50  0001 C CNN
+	1    8300 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 3750 8850 3750
+Wire Wire Line
+	8600 3850 8850 3850
+NoConn ~ 8600 3950
+Wire Wire Line
+	8200 4150 8200 4250
+Wire Wire Line
+	8200 4250 8250 4250
+Wire Wire Line
+	8300 4250 8300 4150
+Wire Wire Line
+	8250 4250 8250 4350
+Connection ~ 8250 4250
+Wire Wire Line
+	8250 4250 8300 4250
+$Comp
+L power:GND #PWR0147
+U 1 1 5F902DAB
+P 8250 4350
+F 0 "#PWR0147" H 8250 4100 50  0001 C CNN
+F 1 "GND" H 8255 4177 50  0000 C CNN
+F 2 "" H 8250 4350 50  0001 C CNN
+F 3 "" H 8250 4350 50  0001 C CNN
+	1    8250 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0148
+U 1 1 5F8F9EE0
+P 9050 3250
+F 0 "#PWR0148" H 9050 3100 50  0001 C CNN
+F 1 "+5V" H 9065 3423 50  0000 C CNN
+F 2 "" H 9050 3250 50  0001 C CNN
+F 3 "" H 9050 3250 50  0001 C CNN
+	1    9050 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 3550 9050 3550
+Text GLabel 8850 3750 2    50   Input ~ 0
+USB_DP
+Text GLabel 8850 3850 2    50   Input ~ 0
+USB_DM
+Wire Wire Line
+	9050 3550 9350 3550
+$Comp
+L power:GND #PWR0149
+U 1 1 5F90A580
+P 9350 4350
+F 0 "#PWR0149" H 9350 4100 50  0001 C CNN
+F 1 "GND" H 9355 4177 50  0000 C CNN
+F 2 "" H 9350 4350 50  0001 C CNN
+F 3 "" H 9350 4350 50  0001 C CNN
+	1    9350 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C33
+U 1 1 5F90AF3F
+P 9350 3950
+F 0 "C33" H 9465 3996 50  0000 L CNN
+F 1 "10u" H 9465 3905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9388 3800 50  0001 C CNN
+F 3 "~" H 9350 3950 50  0001 C CNN
+	1    9350 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 3450 9350 3550
+Wire Wire Line
+	9350 4100 9350 4350
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5F912100
+P 5100 1950
+F 0 "TP1" H 5158 2068 50  0000 L CNN
+F 1 "TestPoint" H 5158 1977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 5300 1950 50  0001 C CNN
+F 3 "~" H 5300 1950 50  0001 C CNN
+	1    5100 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 1950
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5F9132C9
+P 5100 3200
+F 0 "TP2" H 5158 3318 50  0000 L CNN
+F 1 "TestPoint" H 5158 3227 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 5300 3200 50  0001 C CNN
+F 3 "~" H 5300 3200 50  0001 C CNN
+	1    5100 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 3200
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5F913BC3
+P 5100 4450
+F 0 "TP3" H 5158 4568 50  0000 L CNN
+F 1 "TestPoint" H 5158 4477 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 5300 4450 50  0001 C CNN
+F 3 "~" H 5300 4450 50  0001 C CNN
+	1    5100 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 4450
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5F914114
+P 5100 5650
+F 0 "TP4" H 5158 5768 50  0000 L CNN
+F 1 "TestPoint" H 5158 5677 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 5300 5650 50  0001 C CNN
+F 3 "~" H 5300 5650 50  0001 C CNN
+	1    5100 5650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 5650
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5F914960
+P 9350 3450
+F 0 "TP5" H 9408 3568 50  0000 L CNN
+F 1 "TestPoint" H 9408 3477 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 9550 3450 50  0001 C CNN
+F 3 "~" H 9550 3450 50  0001 C CNN
+	1    9350 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 9050 3550
+Connection ~ 9350 3550
+Wire Wire Line
+	9350 3550 9350 3800
+Wire Wire Line
+	9050 3250 9050 3550
+$EndSCHEMATC

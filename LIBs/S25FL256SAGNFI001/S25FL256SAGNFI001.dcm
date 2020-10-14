@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP S25FL256SAGNFI001
+D NOR Flash 256Mb 3V 133MHz Serial NOR Flash 128 Mb (16 MB)/256 Mb (32 MB) 3.0V SPI Flash Memory
+K
+F https://datasheet.lcsc.com/szlcsc/1912121734_Cypress-Semicon-S25FL256SAGNFI001_C466862.pdf
+$ENDCMP
+#
+#End Doc Library
