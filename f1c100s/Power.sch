@@ -535,9 +535,9 @@ $EndComp
 Wire Wire Line
 	8600 3550 9050 3550
 Text GLabel 8850 3750 2    50   Input ~ 0
-USB_DP
+USB_P
 Text GLabel 8850 3850 2    50   Input ~ 0
-USB_DM
+USB_N
 Wire Wire Line
 	9050 3550 9350 3550
 $Comp
